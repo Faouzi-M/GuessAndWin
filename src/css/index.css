@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(31,2,30,1) 64%, rgba(121,9,9,1) 100%);
+}
+
+.Head {
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+}
+.Head .advert {
+  width: 100%;
+  height: max-content;
+}
+.Head .advert h2 {
+  width: 100%;
+  height: max-content;
+  padding: 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.ro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+  background: rgba(75, 75, 75, 0.7176470588);
+}
+.ro .input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ro .input p {
+  width: 100%;
+  padding: 30px;
+  height: max-content;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.ro .input input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.ro .input button {
+  width: 180px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 30px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 30px 2px rgba(0, 0, 0, 0.4);
+}
+.ro .input.hide {
+  display: none;
+}
+.ro .disGUes {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 50px;
+}
+.ro .disGUes .p {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.ro .disGUes .numberDisplay {
+  width: 100%;
+  height: max-content;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.ro .disGUes .startButton {
+  width: 180px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 30px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 30px 2px rgba(0, 0, 0, 0.4);
+}
+.ro .disGUes.active {
+  display: flex;
+}
+
+.prankDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.prankDiv .f {
+  height: max-content;
+  width: 80%;
+}
+.prankDiv .f h1 {
+  width: 100%;
+  height: max-content;
+  color: #b2bec3;
+  text-align: center;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  margin: 20px 0 20px 0;
+}
+.prankDiv p {
+  width: 80%;
+  height: max-content;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  margin: 20px 0 20px 0;
+}
+.analyz {
+  backdrop-filter: blur(20px);
+  color:white;
+}
+
+.fil {
+  width: 150px;
+  height: 200px;
+  left: 50%;
+  top: 20%;
+  transform: translate(-40%, -40%);
+  position: absolute;
+  scale: 0;
+  transition: all 0.9s linear;
+}
+.fil.show {
+  scale: 1;
+  transition: all 0.5s linear;
+}
+
+/*# sourceMappingURL=index.css.map */
